@@ -1,12 +1,12 @@
 
-#Dog Party
+# Dog Party
 
 
 
-[picture of website comp] (comp.png "Website Comp Picture")
+![picture of website comp](comp.png "Website Comp Picture")
 
 
 
-[screenshot of website] (screenshot.png "Current Screenshot")
+![screenshot of website](screenshot.png "Current Screenshot")
 
 
