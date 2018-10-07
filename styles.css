@@ -1,35 +1,28 @@
 /* import the google font */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/* global elements */
-body, footer {
-  margin: 0px;
-  padding: 0px;
-}
-
 a {
   font-family: Raleway;
   color: white;
 }
 
-p, h1, h2 {
-  font-family: Raleway;
+/* master class for all three main-body columns */ 
+.aligned-dogs {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3f8ca6;
+  height: 200px;
+  width: 200px;
 }
 
-ul {
-  list-style: none;
-  float: right;
+body, footer {
+  margin: 0px;
+  padding: 0px;
 }
 
-ul li {
-  font-weight: bold;
-  padding: 5px;
-  padding-right: 20px;
-  display: inline;
-}
-
-ul li a {
-  text-decoration: none;
+.body-content {
+  text-align: center;
 }
 
 button {
@@ -44,17 +37,31 @@ button {
   color: #3f8ca6;
 }
 
-/* navigation bar */
-.navigation-bar {
-  background-color: #91dfe3;
+/* master class for four footer icons */ 
+.contact-icons {
+  padding: 20px;
 }
 
-.site-icon {
-  width: 35px;
-  padding-left: 20px;
+.facebook-icon, .twitter-icon, .instagram-icon, .linkedin-icon {
+  padding: 20px;
+  display: inline-block;
 }
 
-/* page header */ 
+.first-column {
+  float: left;
+  width: 31%; 
+  padding: 10px;
+  display: inline-block;
+}
+
+.footer-content {
+  clear: left;
+  background-color: #3f8ca6;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
 .header-content {
   background-image: url("images/park.jpg");
   background-repeat: no-repeat;
@@ -72,25 +79,12 @@ button {
   width: 250px;
 }
 
-/* page body */ 
-.body-content {
-  text-align: center;
+.navigation-bar {
+  background-color: #91dfe3;
 }
 
-.aligned-dogs {
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #3f8ca6;
-  height: 200px;
-  width: 200px;
-}
-
-.first-column {
-  float: left;
-  width: 31%; 
-  padding: 10px;
-  display: inline-block;
+p, h1, h2 {
+  font-family: Raleway;
 }
 
 .second-column {
@@ -99,26 +93,36 @@ button {
   width: 31%; 
 }
 
+.site-icon {
+  width: 35px;
+  padding-left: 20px;
+}
+
 .third-column {
   float: left;
   padding: 10px;
   width: 31%; 
 }
 
- /* footer */
-.footer-content {
-  clear: left;
-  background-color: #3f8ca6;
-  text-align: center;
-  color: white;
-  padding: 20px;
+ul {
+  list-style: none;
+  float: right;
 }
 
-.contact-icons {
-  padding: 20px;
+ul li {
+  font-weight: bold;
+  padding: 5px;
+  padding-right: 20px;
+  display: inline;
+} 
+
+ul li a {
+  text-decoration: none;
 }
 
-.facebook-icon, .twitter-icon, .instagram-icon, .linkedin-icon {
-  padding: 20px;
-  display: inline-block;
-}
+
+
+
+
+
+
