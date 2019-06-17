@@ -4,7 +4,7 @@
 
 * * *
 
-### HTML positioning exercise, achieved without flexbox or grid. Introductory Turing project.
+### HTML positioning exercise, achieved without flexbox or grid.
 
 ![Screenshot](https://i.imgur.com/JE3QS6S.jpg)
 
