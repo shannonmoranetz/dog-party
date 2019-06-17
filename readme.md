@@ -1,13 +1,22 @@
-
 # Dog Party
 
+## Html positioning exercise
 
-Original page comp 
+* * *
 
-![picture of website comp](comp.png "Website Comp Picture")
+### HTML positioning exercise, achieved without flexbox or grid. Introductory Turing project.
 
-Current working version 
+![Screenshot](https://i.imgur.com/JE3QS6S.jpg)
 
-![screenshot of website](screenshot.png "Current Screenshot")
+### Features
 
-Test commit message.
+*   Static composition
+
+### Tech Stack
+
+*   HTML
+*   CSS
+
+### Contributors
+
+* [Shannon Moranetz](https://github.com/shannonmoranetz)
